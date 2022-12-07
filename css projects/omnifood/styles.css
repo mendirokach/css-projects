@@ -1,0 +1,77 @@
+/*font sizes
+16
+20
+26
+32
+40
+46
+60
+68
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif;
+    color: #555;
+}
+
+.section-hero{
+    display:flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdf2e9;
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 130rem;
+    margin: 0 auto;
+    gap: 6rem;
+}
+
+.hero-img{
+    width:100%;
+}
+
+.heading-primary{
+    font-size: 6rem;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+    margin-bottom: 4rem;
+}
+
+.hero-text{
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 6rem;
+    font-weight: 500;
+}
+
+.btn:link, .btn:visited{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1.6rem 3.2rem;
+    border-radius: 1rem;
+}
+
+.btn-full{
+    background-color: #e67e22;
+    color: #333;
+}
+
+.btn-outline
+
+
+
