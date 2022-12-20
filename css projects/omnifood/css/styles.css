@@ -1,54 +1,4 @@
-/*font sizes
-16
-18
-20
-26
-32
-40
-46
-60
-68
-*/
 
-/*colors 
-
-greys: #555, #333
-shades : #cf711f
-tints : #fdf2e9
-
-*/
-
-/*spacing :
- 16px
- 32px
- 48px
- 60px
- 96px
-*/
-
-/*border-radius 
-9px
-*/
-
-/*Line height :
-headings : 1.05,
-paragraphs : 1.6. 
-*/
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    font-size: 62.5%;
-}
-
-body{
-    font-family: 'Rubik',sans-serif;
-    color: #555;
-}
 
 /* header */
 
@@ -104,10 +54,9 @@ body{
 /* section hero */ 
 
 .section-hero{
- 
     height: 100vh;
     background-color: #fdf2e9;
-    padding: 5.6rem 4.8rem;
+    padding: 4.8rem 0 9.6rem 0;
 }
 
 .hero-container{
@@ -115,19 +64,12 @@ body{
     grid-template-columns: 1fr 1fr;
     max-width: 130rem;
     margin: 0 auto;
-    gap: 6rem;
+    gap: 9.6rem;
+    padding: 0 3.2rem;
 }
 
 .hero-img{
     width:100%;
-}
-
-.heading-primary{
-    font-size: 6rem;
-    line-height: 1.05;
-    letter-spacing: -0.5px;
-    margin-bottom: 4rem;
-    color: #333; 
 }
 
 .hero-text{
@@ -137,46 +79,11 @@ body{
     font-weight: 500;
 }
 
-.btn:link, .btn:visited{
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 1.6rem 3.2rem;
-    border-radius: 9px;
-    transition: background-color 0.3s;
-}
-
-.btn-full:link, .btn-full:visited{
-    background-color: #e67e22;
-    color: #fff;
-}
-
-.btn-full:hover, .btn-full:active{
-    background-color: #cf711f;
-}
-
-.btn-outline:link, .btn-outline:visited{
-    background-color: #fff;
-    color: #333;
-}
-
-.btn-outline:hover, .btn-outline:active{
-    background-color: #fdf2e9;
-    box-shadow: inset 0 0 0 3px #fff;
-}
-
-.margin-right-sm{
-    margin-right: 1.6rem !important;
-}
-
 .customers-imgs-text-container{
     display: flex;
     align-items: center;
     padding-top: 5rem;
 }
-
-
 
 .customers-imgs-text-container p{
     font-size: 1.6rem;
@@ -199,6 +106,72 @@ body{
     color:#cf711f;
     font-weight: 700;
 }
+
+/* section how it works*/
+
+.section-how{
+    padding: 9.6rem 0;
+}
+
+
+.container{
+   max-width: 120rem;
+   margin: 0 auto; 
+   padding : 0 3.2rem;
+}
+
+.app-img{
+    width:35%
+}
+
+.step-number{
+    font-size: 8.6rem;
+    font-weight: 600;
+    color: #ddd;
+    margin-bottom: 1.2rem;
+}
+
+.step-img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.step-img-box::before{
+    content: "";
+    display: block;
+    background-color: #fdf2e9;
+    width:60%;
+    padding-bottom: 60%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -2;
+}
+
+.step-img-box::after{
+    content: "";
+    display: block;
+    background-color: #fae5d3;
+    width: 45%;
+    padding-top: 45%;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.step-description{
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+
 
 
 
