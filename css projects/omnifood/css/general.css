@@ -27,7 +27,8 @@ tints : #fdf2e9
 */
 
 /*border-radius 
-9px
+small - 9px
+medium - 11px
 */
 
 /*Line height :
@@ -139,6 +140,14 @@ body{
     grid-template-columns: repeat(2,1fr);
 }
 
+.grid--3-cols{
+    grid-template-columns: repeat(3,1fr);
+}
+
 .grid--center-vertical{
     align-items: center;
+}
+
+strong{
+    font-weight: 500;
 }

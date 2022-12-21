@@ -107,6 +107,33 @@
     font-weight: 700;
 }
 
+/* section featured in */
+.section-featured{
+    padding: 4.8rem 0 3.2rem 0;
+}
+.heading-featured-in{
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    /* the same color of the logos images*/
+    color: #888;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos img{
+    height: 3.2rem;
+    /*to make it complete black*/
+    filter: brightness(0);
+    /*to make it gray*/
+    opacity: 0.5;
+}
+
 /* section how it works*/
 
 .section-how{
@@ -172,8 +199,81 @@
 }
 
 
+/*section meals*/
+.section-meals{
+    padding: 9.6rem 0;
+}
 
+.meal-img{
+    width: 100%;
+}
 
+.meal-title{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 3.2rem;
+}
+
+.meal-attributes{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.meal-attribute{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.meal{
+    /*ערך ראשון אחראי על אפקט הצל - כלומר כמה ההטלה של האלמנט על הדף*/
+    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.meal-icon{
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #e67e22;
+}
+
+.meal-tags{
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.tag{
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    /*some big value*/
+    border-radius: 1000px;
+    color:#333
+}
+
+.tag--vegetarian{
+    background-color: #51cf66;
+}
+
+.tag--vegan{
+    background-color: #a9e34b;
+}
+
+.tag--pelao{
+    background-color: #ffd43b;
+}
+
+.meal-content{
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
 
 
 
