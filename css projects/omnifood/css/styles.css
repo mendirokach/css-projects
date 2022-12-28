@@ -236,9 +236,9 @@
     transition: all 0.4s;
 }
 
-.meal:hover{
+.meal:hover {
     transform: translateY(-1.2rem);
-    box-shadow: 0 3.2rem 6.4rem rgba(0,0,0,0.06);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .meal-icon {
@@ -281,108 +281,110 @@
 }
 
 
-.all-recipes{
+.all-recipes {
     font-size: 1.8rem;
     color: #e67e22;
     text-align: center;
 }
 
-.link:link, .link:visited{
+.link:link,
+.link:visited {
     text-decoration: none;
-    color:#e67e22;
+    color: #e67e22;
     border-bottom: 1px solid currentColor;
     transition: all 0.3s;
 }
 
-.link:hover, .link:active{
-    color:#cf711f;
+.link:hover,
+.link:active {
+    color: #cf711f;
     border-bottom: 1px solid transparent;
 }
 
 /*Testimonnails Section*/
 
-.section-testimonials{
+.section-testimonials {
     display: grid;
     grid-template-columns: 55fr 45fr;
     background-color: #fdf2e9;
 }
 
-.testimonials-container{
+.testimonials-container {
     padding: 9.6rem;
 }
 
-.testimonails{
+.testimonails {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 4.8rem;
     column-gap: 8rem;
 }
 
-.testimonial-img{
+.testimonial-img {
     width: 6.4rem;
     border-radius: 50%;
     margin-bottom: 1.2rem;
 }
 
-.testimonial-text{
+.testimonial-text {
     font-size: 1.8rem;
     line-height: 1.8;
     margin-bottom: 1.6rem;
     color: #333;
 }
 
-.testimonial-name{
+.testimonial-name {
     font-size: 1.8rem;
-    color:#6F6F6F;
+    color: #6F6F6F;
 }
 
-.gallery{
+.gallery {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.6rem;
     padding: 1.6rem;
     align-self: center;
 }
 
-.gallery-item{
+.gallery-item {
     overflow: hidden;
 }
 
-.gallery-item img{
+.gallery-item img {
     display: block;
     width: 100%;
     transition: all 0.4s;
 }
 
-.gallery-item img:hover{
+.gallery-item img:hover {
     transform: scale(1.1);
 }
 
 
 /*Pricing Section*/
 
-.section-pricing{
+.section-pricing {
     padding: 9.6rem 0;
 }
 
-.pricing-container{
+.pricing-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4.8rem;
 }
 
-.pricing-plan--starter{
+.pricing-plan--starter {
     justify-self: end;
     box-shadow: inset 0 0 0 2px #fdf2e9;
 }
 
-.pricing-plan--complete{
+.pricing-plan--complete {
     background-color: #fdf2e9;
     position: relative;
     overflow: hidden;
 }
 
-.pricing-plan--complete::after{
+.pricing-plan--complete::after {
     content: "Best value";
     font-size: 1.4rem;
     background-color: #ffd43b;
@@ -396,19 +398,19 @@
     transform: rotate(45deg);
 }
 
-.pricing-btn-container{
+.pricing-btn-container {
     margin-top: 4.8rem;
     text-align: center;
 }
 
 
-.pricing-plan{
+.pricing-plan {
     border-radius: 11px;
     padding: 4.8rem;
     width: 75%;
 }
 
-.plan-title{
+.plan-title {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1.6rem;
@@ -416,25 +418,84 @@
     text-transform: uppercase;
 }
 
-.price{
+.price {
     font-size: 6.4rem;
     font-weight: 600;
     color: #333;
     margin-bottom: 1.2rem;
 }
 
-.price span{
-    font-size: 3.2rem;  
+.price span {
+    font-size: 3.2rem;
     font-weight: 600;
     color: #333;
-    
+
 }
 
-.price-text{
+.price-text {
     font-size: 1.4rem;
 }
 
-.plan-text{
+.plan-text {
     text-align: center;
     margin-bottom: 3.6rem;
+}
+
+.plan-details {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+
+
+.feautre-icon {
+    background-color: #fdf2e9;
+    padding: 1.6rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    margin-bottom: 1.6rem;
+    color: #e67e22;
+}
+
+.feature-title {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+}
+
+.feature-text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+
+/*Section call to action*/
+
+.section-cta {
+    padding: 9.6rem 0;
+}
+
+.cta {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #e67e22;
+    background-image: linear-gradient(to right bottom,
+    #eb984e,
+    #e67e22);
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+
+    border-radius: 11px;
+    overflow: hidden;
+
+}
+
+.cta-img-box {
+    background-image:
+    linear-gradient(to right bottom,rgba(235, 151, 78, 0.35),rgba(235, 151, 78, 0.35)),
+    url('../images/eating.jpg');
+    background-size: cover;
+    height: 50rem;
+
 }
