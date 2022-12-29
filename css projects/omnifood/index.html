@@ -14,6 +14,7 @@
     />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css"/>
   </head>
 
   <body>
@@ -24,9 +25,9 @@
       <nav>
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#section-how">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link" href="#section-meals">Meals</a></li>
+          <li><a class="main-nav-link" href="#section-testimonials">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#section-pricing">Pricing</a></li>
           <li><a class="main-nav-link link-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
@@ -35,7 +36,7 @@
     <main>
       <section class="section-hero">
         <div class="hero-container">
-          <div class="hero-text">
+          <div class="hero-text-box">
             <h1 class="heading-primary">
               A healthy meal delivered to your door, every single day
             </h1>
@@ -48,50 +49,52 @@
               >Start eating well</a
             >
             <a href="#" class="btn btn-outline">Learn more &darr;</a>
-            <div class="customers-imgs-text-container">
-              <div class="customer-imgs">
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
                 <img
-                  class="customer-img"
+                  class="delivered-img"
                   src="images/customers/customer-1.jpg"
                   alt="customer 1"
                 />
                 <img
-                  class="customer-img"
+                  class="delivered-img"
                   src="images/customers/customer-2.jpg"
                   alt="customer 2"
                 />
                 <img
-                  class="customer-img"
+                  class="delivered-img"
                   src="images/customers/customer-3.jpg"
                   alt="customer 3"
                 />
                 <img
-                  class="customer-img"
+                  class="delivered-img"
                   src="images/customers/customer-4.jpg"
                   alt="customer 4"
                 />
                 <img
-                  class="customer-img"
+                  class="delivered-img"
                   src="images/customers/customer-5.jpg"
                   alt="customer 5"
                 />
                 <img
-                  class="customer-img"
+                  class="delivered-img"
                   src="images/customers/customer-6.jpg"
                   alt="customer 6"
                 />
               </div>
-              <p>
+              <p class="delivered-text">
                 <span class="tint-span">250,000+</span> meals delivered last
                 year!
               </p>
             </div>
           </div>
+          <div class="hero-img-box">
           <img
             class="hero-img"
             src="images/hero.png"
             alt="woman eats well, and two images of meals"
           />
+        </div>
         </div>
       </section>
 
@@ -120,7 +123,7 @@
           <h2 class="heading-secondary" >
             Your daily dose of health in 3 simple steps
           </h2>
-          <div class="grid grid--2-cols grid--center-vertical margin-bottom-lg">
+          <div class="grid grid--2-cols grid--center-vertical">
             <div class="step-text-box">
               <p class="step-number">01</p>
               <h3 class="heading-tertiary">
@@ -142,7 +145,7 @@
             </div>
           </div>
 
-          <div class="grid grid--2-cols grid--center-vertical margin-bottom-lg">
+          <div class="grid grid--2-cols grid--center-vertical">
             <div class="step-img-box">
               <img
                 class="app-img"
@@ -183,7 +186,7 @@
       </section>
 
       <section class="section-meals">
-        <div class="container center-text">
+        <div class="container center-text" id="section-meals">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
             Omnifood AI chooses from 5,000+ recipes
@@ -302,7 +305,7 @@
       </section>
 
       <section class="section-testimonials">
-        <div class="testimonials-container">
+        <div class="testimonials-container" id="section-testimonials">
           <span class="subheading">testimonails</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
 
@@ -401,7 +404,7 @@
       </section>
 
       <section class="section-pricing">
-        <div class="container">
+        <div class="container" id="section-pricing">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
             Eating well without breaking the bank
@@ -428,7 +431,7 @@
                 ><span>Delivery is free</span>
               </li>
               <li class="list-item">
-                <ion-icon class="list-icon" name="close-outline"></ion-icon>☺
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
               </li>
             </ul>
             <div class="pricing-btn-container">
@@ -512,7 +515,7 @@
       </section>
 
       <section class="section-cta">
-        <div class="container">
+        <div class="container" id="section-cta">
           <div class="cta">
             <div class="cta-text-box">
               <h2 class="heading-secondary">Get your first meal for free!</h2>

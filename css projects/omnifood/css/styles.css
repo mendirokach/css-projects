@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3.2rem;
+    gap: 4.8rem;
     font-size: 1.8rem;
     list-style: none;
     font-weight: 500;
@@ -56,15 +56,14 @@
 /* section hero */
 
 .section-hero {
-    height: 100vh;
     background-color: #fdf2e9;
     padding: 4.8rem 0 9.6rem 0;
 }
 
 .hero-container {
+    max-width: 130rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 130rem;
     margin: 0 auto;
     gap: 9.6rem;
     padding: 0 3.2rem;
@@ -78,33 +77,38 @@
     font-size: 2rem;
     line-height: 1.6;
     margin-bottom: 6rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 
-.customers-imgs-text-container {
+.delivered-meals {
     display: flex;
     align-items: center;
-    padding-top: 5rem;
+    margin-top: 8rem;
+    gap: 1.6rem;
 }
 
-.customers-imgs-text-container p {
-    font-size: 1.6rem;
-    padding-left: 1.6rem;
+.delivered-imgs{
+    display: flex;
 }
 
-.customer-img {
+.delivered-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.delivered-img {
     border-radius: 50%;
-    width: 48px;
-    height: 48px;
+    width: 4.8rem;
+    height: 4.8rem;
     margin-right: -1.6rem;
     border: 3px solid #fdf2e9;
 }
 
-.customer-imgs img:last-child {
-    margin: 0;
+.delivered-imgs img:last-child {
+    margin-right: 0;
 }
 
-.customers-imgs-text-container p span {
+.tint-span {
     color: #cf711f;
     font-weight: 700;
 }
@@ -143,8 +147,6 @@
 .section-how {
     padding: 9.6rem 0;
 }
-
-
 
 .app-img {
     width: 35%
@@ -316,7 +318,7 @@
 .testimonails {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 4.8rem;
+    row-gap: 5.6rem;
     column-gap: 8rem;
 }
 

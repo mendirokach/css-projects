@@ -1,14 +1,7 @@
-/*font sizes
-16
-18
-20
-26
-32
-40
-46
-60
-68
-*/
+/* Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+*/ 
 
 /* colors 
 primary : #e67e22
@@ -49,6 +42,7 @@ html{
 body{
     font-family: 'Rubik',sans-serif;
     color: #555;
+    line-height: 1;
 }
 
 *:focus{
@@ -134,7 +128,6 @@ body{
     margin-bottom: 3.2rem;
 }
 
-
 .subheading{
     display: block;
     font-size: 1.4rem;
@@ -150,8 +143,6 @@ body{
     margin: 0 auto;
     padding: 0 3.2rem;
 }
-
-
 
 .grid{
     display: grid;
