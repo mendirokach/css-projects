@@ -37,12 +37,15 @@ paragraphs : 1.6.
 
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
+
 }
 
 body{
     font-family: 'Rubik',sans-serif;
     color: #555;
     line-height: 1;
+    overflow-x:hidden;
 }
 
 *:focus{
@@ -181,6 +184,7 @@ body{
 
 .list-item {
     font-size: 1.8rem;
+    line-height: 1.2;
     display: flex;
     gap: 1.6rem;
     align-items: center;
