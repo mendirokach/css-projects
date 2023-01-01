@@ -428,6 +428,12 @@
     border-radius: 11px;
     padding: 4.8rem;
     width: 75%;
+
+    /* added to prevent mismatch busttons sizes when screen is about 700px*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .plan-title {

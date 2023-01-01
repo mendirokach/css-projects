@@ -207,6 +207,10 @@
         width: 3rem;
         height: 3rem;
     }
+
+    .btn, .btn:link, .btn:visited{
+        padding: 1.6rem;
+    }
 }
 
 
