@@ -1,7 +1,5 @@
 /* header */
 
-
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -111,6 +109,7 @@
 
 .hero-img {
     width: 100%;
+    mix-blend-mode: multiply;
 }
 
 .hero-text {

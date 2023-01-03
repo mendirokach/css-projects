@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-   
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -77,8 +77,20 @@
                         </p>
                     </div>
                 </div>
+
                 <div class="hero-img-box">
-                    <img class="hero-img" src="images/hero.png" alt="woman eats well, and two images of meals" />
+                    <picture>
+                        <source srcset="images/hero.webp" type="image/webp" />
+                        <!-- fallback source -->
+                        <source srcset="images/hero-min.png" type="image/png" />
+
+                        <!-- in img give the fallback source -->
+                        <img 
+                        class="hero-img" 
+                        src="images/hero-min.png" 
+                        alt="woman eats well, and two images of meals" />
+
+                    </picture>
                 </div>
             </div>
         </section>
